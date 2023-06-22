@@ -1,0 +1,44 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  /*background-color: #598f58;*/
+  background-color: rgba(200, 232, 139, 1);
+  border-radius: 10px;
+}
+.buddy{
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buddy-img{
+  width: 75%;
+  height: 75%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tasks{
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:1rem;
+}
+.pt1{
+  font-family: "Helvetica Neue Medium Extended", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+.pt2{
+  font-family: "Helvetica Neue Medium Extended", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  color: darkcyan;
+  font-weight: bolder;
+
+}
